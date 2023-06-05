@@ -1,0 +1,66 @@
+body{
+    background-color: azure ;
+}
+
+.name{
+    font-size: 80px;
+    display: inline;
+    margin-left: 260px;
+    color: rgb(45, 19, 2);
+}
+
+p{
+    text-align: center;
+}
+
+.outside{
+    padding: 10px;
+    border: 3px solid rgb(120, 117, 117);
+    display: inline-block;
+    margin-top: 25px;
+    
+}
+
+.flag{
+    height: 600px;
+    width: 900px;
+    margin-top : 10px;
+    background-color: rgb(255,103,0);
+    position: relative;
+}
+
+.white{
+    background-color: white;
+    height: 200px;
+    width: 100%;
+    position: absolute;
+    top: 200px;
+}
+
+.ashoke img{
+    height: 185px;
+    position: absolute;
+    top: 207.5px;
+    left: 357.5px;
+}
+
+.dark-green{
+    background-color: darkgreen;
+    height: 200px;
+    width: 100%;
+    position: absolute;
+    top: 400px;
+}
+
+@media (max-width: 680px){
+
+    body{
+        background-color: azure;
+    }
+    .outside{
+        padding: 10px;
+        border: 3px solid rgb(120, 117, 117);
+        display: inline-block;
+        margin-top: 50%; 
+    }
+}
